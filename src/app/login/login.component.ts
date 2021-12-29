@@ -16,6 +16,7 @@ export class LoginComponent implements OnInit {
       password: data.password,
     };
     console.log(user);
-    alert('Hello: ' + ' ' + user.username);
+    alert('Hello: ' + ' ' + user.username + '\n' + 'You are authenticated.');
   }
 }
+
